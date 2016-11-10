@@ -9,8 +9,8 @@ ELEMENTS = ['a', 'p', 'img', 'li', 'h1', 'h2', 'h3', 'tr', 'button']
 
 ATTRS = {
   'a': ['color',  'float', 'font-size', 'text-align'],
-  'p': ['color',  'float', 'font-size', 'text-align'],
-  'img': ['float', 'font-size'],
+  'p': ['color',  'float', 'font-size', 'text-align', 'border', 'background-color'],
+  'img': ['float', 'border-radius'],
   'li': ['color',  'float', 'font-size', 'text-align'],
   'h1': ['color',  'float', 'font-size', 'text-align'],
   'h2': ['color',  'float', 'font-size', 'text-align'],
@@ -24,5 +24,9 @@ OPTIONS = {
   'float': ['none', 'left', 'right'],
   'font-size': ['1em', '.5em', '.8em'],
   'text-align': ['left', 'right', 'center'],
+  'border-radius': ['0', '10px', '50%'],
+  'border': ['none', '5px solid red', '1px outset black', '10px dotted blue', '5px dashed blue'],
+  'background-color': ['white', 'blue', 'black', 'green', 'red'],
 }
+
 ```
